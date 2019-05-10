@@ -1,0 +1,13 @@
+.ui.inverted.menu{
+    background-color: #423752 !important;
+    border-radius: 25px !important;
+}
+.ui.inverted.menu a.active.item{
+    background-color: #df5a55 !important;
+    border-radius: 25px !important;
+    
+}
+
+.ui.inverted.menu .item, .ui.inverted.menu .item>a:not(.ui){
+    font-size: 1.5em;
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "tabName": "Favourite",
+        "color": "Red",
+        "icon": "heart outline"
+    },
+    {
+        "tabName": "Javascrip",
+        "color": "Blue",
+        "icon": "js"
+    },
+    {
+        "tabName": "Angular",
+        "color": "Red",
+        "icon": "angular"
+    },
+    {
+        "tabName": "Vue",
+        "color": "Green",
+        "icon": "vuejs"
+    },
+    {
+        "tabName": "CSS",
+        "color": "Blue",
+        "icon": "css3"
+    }
+]
