@@ -9,7 +9,7 @@ import Tab from '../tab/Tab';
 class Home extends React.Component {
     render() {
         return (
-            <div className="javascript-geek">
+            <div className="container">
                 <Post />
                 <Tab />
             </div>

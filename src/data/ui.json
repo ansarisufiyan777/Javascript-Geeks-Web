@@ -1,27 +1,38 @@
 [
     {
         "tabName": "Favourite",
-        "color": "Red",
-        "icon": "heart outline"
+        "color": "#df5a55",
+        "icon": "/assets/love_grey.png",
+        "icon_selected": "/assets/love_white.png"
     },
     {
         "tabName": "Javascrip",
-        "color": "Blue",
-        "icon": "js"
+        "color": "#f9bb72",
+        "icon": "/assets/js_grey.png",
+        "icon_selected": "/assets/js_white.png"
     },
     {
         "tabName": "Angular",
-        "color": "Red",
-        "icon": "angular"
+        "color": "#dd6495",
+        "icon": "/assets/angular_grey.png",
+        "icon_selected": "/assets/angular_white.png"
+    },
+    {
+        "tabName": "React",
+        "color": "#76afcf",
+        "icon": "/assets/react_grey.png",
+        "icon_selected": "/assets/react_white.png"
     },
     {
         "tabName": "Vue",
-        "color": "Green",
-        "icon": "vuejs"
+        "color": "#4fc08d",
+        "icon": "/assets/vue_grey.png",
+        "icon_selected": "/assets/vue_white.png"
     },
     {
         "tabName": "CSS",
-        "color": "Blue",
-        "icon": "css3"
+        "color": "#72d3b4",
+        "icon": "/assets/css_grey.png",
+        "icon_selected": "/assets/css_white.png"
     }
 ]

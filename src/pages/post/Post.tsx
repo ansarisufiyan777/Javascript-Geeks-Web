@@ -7,7 +7,7 @@ class Post extends React.Component {
     public postData() {
         return postData.map((v) => {
             return (
-                <div className="post-parent">
+                <div className="post-parent ripple">
                     <div className="post-container">
                         <div className="main-image">
                             <img src={'https://react.semantic-ui.com/images/avatar/large/matthew.png'} />
