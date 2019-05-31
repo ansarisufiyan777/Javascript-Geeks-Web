@@ -2,37 +2,43 @@
     {
         "tabName": "Favourite",
         "color": "#df5a55",
-        "icon": "/assets/love_grey.png",
-        "icon_selected": "/assets/love_white.png"
+        "icon": "heart outline",
+        "icon_selected": "/assets/love_white.png",
+        "route": "/favourite"
     },
     {
         "tabName": "Javascrip",
         "color": "#f9bb72",
-        "icon": "/assets/js_grey.png",
-        "icon_selected": "/assets/js_white.png"
+        "icon": "js square",
+        "icon_selected": "/assets/js_white.png",
+        "route": "js"
     },
     {
         "tabName": "Angular",
         "color": "#dd6495",
-        "icon": "/assets/angular_grey.png",
-        "icon_selected": "/assets/angular_white.png"
+        "icon": "angular",
+        "icon_selected": "/assets/angular_white.png",
+        "route": "/angular"
     },
     {
         "tabName": "React",
         "color": "#76afcf",
-        "icon": "/assets/react_grey.png",
-        "icon_selected": "/assets/react_white.png"
+        "icon": "react",
+        "icon_selected": "/assets/react_white.png",
+        "route": "/react"
     },
     {
         "tabName": "Vue",
         "color": "#4fc08d",
-        "icon": "/assets/vue_grey.png",
-        "icon_selected": "/assets/vue_white.png"
+        "icon": "vuejs",
+        "icon_selected": "/assets/vue_white.png",
+        "route": "/vue"
     },
     {
         "tabName": "CSS",
         "color": "#72d3b4",
-        "icon": "/assets/css_grey.png",
-        "icon_selected": "/assets/css_white.png"
+        "icon": "css3",
+        "icon_selected": "/assets/css_white.png",
+        "route": "/css"
     }
 ]

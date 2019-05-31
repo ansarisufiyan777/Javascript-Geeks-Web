@@ -7,18 +7,22 @@
     "@types/node": "12.0.0",
     "@types/react": "16.8.17",
     "@types/react-dom": "16.8.4",
+    "@types/react-router-dom": "^4.3.3",
     "dompurify": "^1.0.10",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
+    "semantic-ui-icon": "^2.3.3",
     "typescript": "3.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:scss": "node-sass -w -r assets/src/scss/ -o assets/dist/css/"
   },
   "eslintConfig": {
     "extends": "react-app"
