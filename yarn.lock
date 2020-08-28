@@ -1245,6 +1245,11 @@
   resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-0.0.32.tgz#ccc4148d7f2e0598006611e82e840806fab4b268"
   integrity sha512-OPiBf1Xgi5umND0m0LpBhxfRVat3dMCXeB4SBVzAIa0sKniJ9z2g9cN0trL1OcmkQnjDV14yCyRH26G2L0zWFQ==
 
+"@types/history@*":
+  version "4.7.7"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.7.tgz#613957d900fab9ff84c8dfb24fa3eef0c2a40896"
+  integrity sha512-2xtoL22/3Mv6a70i4+4RB7VgbDDORoWwjcqeNysojZA0R7NK17RbY5Gof/2QiFfJgX+KkWghbwJ+d/2SB8Ndzg==
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -1297,6 +1302,23 @@
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.4.tgz#7fb7ba368857c7aa0f4e4511c4710ca2c5a12a88"
   integrity sha512-eIRpEW73DCzPIMaNBDP5pPIpK1KXyZwNgfxiVagb5iGiz6da+9A5hslSX6GAQKdO7SayVCS/Fr2kjqprgAvkfA==
   dependencies:
+    "@types/react" "*"
+
+"@types/react-router-dom@^4.3.3":
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-4.3.5.tgz#72f229967690c890d00f96e6b85e9ee5780db31f"
+  integrity sha512-eFajSUASYbPHg2BDM1G8Btx+YqGgvROPIg6sBhl3O4kbDdYXdFdfrgQFf/pcBuQVObjfT9AL/dd15jilR5DIEA==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router@*":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-5.1.8.tgz#4614e5ba7559657438e17766bb95ef6ed6acc3fa"
+  integrity sha512-HzOyJb+wFmyEhyfp4D4NYrumi+LQgQL/68HvJO+q6XtuHSDvw6Aqov7sCAhjbNq3bUPgPqbdvjXC5HeB2oEAPg==
+  dependencies:
+    "@types/history" "*"
     "@types/react" "*"
 
 "@types/react@*", "@types/react@16.8.17":
@@ -3415,10 +3437,10 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
-dompurify@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-1.0.10.tgz#18d7353631c86ee25049e38fbca8c6b2c5a2af87"
-  integrity sha512-huhl3DSWX5LaA7jDtnj3XQdJgWW1wYouNW7N0drGzQa4vEUSVWyeFN+Atx6HP4r5cang6oQytMom6I4yhGJj5g==
+dompurify@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.0.3.tgz#5cc4965a487d54aedba6ba9634b137cfbd7eb50d"
+  integrity sha512-q006uOkD2JGSJgF0qBt7rVhUvUPBWCxpGayALmHvXx2iNlMfNVz7PDGeXEUjNGgIDjADz59VZCv6UE3U8XRWVw==
 
 domutils@1.5.1:
   version "1.5.1"
